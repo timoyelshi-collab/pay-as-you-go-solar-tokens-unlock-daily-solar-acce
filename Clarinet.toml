@@ -10,10 +10,15 @@ path = 'contracts/billing.clar'
 clarity_version = 3
 epoch = '3.2'
 
+[contracts.escrow]
+path = 'contracts/escrow.clar'
+clarity_version = 3
+epoch = 'latest'
+
 [contracts.metering]
 path = 'contracts/metering.clar'
 clarity_version = 3
-epoch = 'latest'
+epoch = '3.2'
 [repl.analysis]
 passes = ['check_checker']
 
